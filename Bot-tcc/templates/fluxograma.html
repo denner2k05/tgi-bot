@@ -17,7 +17,6 @@
     </header>
 
     <section class="flow-hero">
-      <p class="eyebrow">03 · EXPLICAÇÃO PARA A BANCA</p>
       <h1>Como o chatbot transforma uma pergunta em uma resposta.</h1>
       <p class="lead">Este fluxo mostra, de forma visual, o caminho entre a pergunta do aluno, o PLN, a base controlada e a resposta segura.</p>
     </section>
@@ -28,16 +27,6 @@
       <article class="flow-node"><span class="flow-number">02</span><div><strong>Aluno escreve a pergunta</strong><p>O sistema aceita linguagem natural em português e limita a entrada a 500 caracteres.</p></div></article>
       <div class="flow-arrow">↓</div>
       <article class="flow-node"><span class="flow-number">03</span><div><strong>Pré-processamento</strong><p>Normaliza letras, acentos, pontuação e ruídos para preparar o texto.</p></div></article>
-      <div class="flow-arrow">↓</div>
-      <article class="flow-node"><span class="flow-number">04</span><div><strong>PLN identifica a intenção</strong><p>TF-IDF híbrido de palavras e caracteres representa a pergunta. A Regressão Logística calcula a intenção e a confiança.</p></div></article>
-      <div class="flow-arrow">↓</div>
-      <div class="flow-branches">
-        <article class="flow-branch branch-blue"><span>INSTITUCIONAL</span><strong>Endereço, horários, CAA e fontes</strong><p>Consulta fatos públicos do campus Anália Franco, com fonte, data e link oficial.</p></article>
-        <article class="flow-branch branch-yellow"><span>PERFIL SINTÉTICO</span><strong>Notas, curso e frequência</strong><p>Consulta somente o perfil selecionado. O sistema bloqueia o acesso a outro perfil.</p></article>
-        <article class="flow-branch branch-gray"><span>ENCAMINHAMENTO</span><strong>CAA ou reformulação</strong><p>Para dúvida sem confirmação, documento, financeiro ou baixa confiança, orienta CAA online/presencial.</p></article>
-      </div>
-      <div class="flow-arrow">↓</div>
-      <article class="flow-node flow-result"><span class="flow-number">05</span><div><strong>Resposta controlada</strong><p>O chatbot não inventa fatos: responde com dados cadastrados, mostra evidências quando disponíveis ou encaminha para atendimento humano.</p></div></article>
     </section>
 
     <section class="differentials">
