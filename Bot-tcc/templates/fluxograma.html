@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Como funciona — Chatbot TGI II</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <main class="shell flow-page">
+    <header class="topbar">
+      <a class="brand brand-link" href="/" aria-label="Voltar ao Chatbot TGI II">
+        <img class="brand-logo" src="{{ url_for('static', filename='cruzeiro-do-sul-simbolo.png') }}" alt="Símbolo da Universidade Cruzeiro do Sul">
+        <div><strong>Chatbot TGI II</strong><small>protótipo acadêmico independente</small></div>
+      </a>
+      <a class="campus-pill flow-back" href="/">Voltar ao chatbot ↗</a>
+    </header>
+
+    <section class="flow-hero">
+      <p class="eyebrow">03 · EXPLICAÇÃO PARA A BANCA</p>
+      <h1>Como o chatbot transforma uma pergunta em uma resposta.</h1>
+      <p class="lead">Este fluxo mostra, de forma visual, o caminho entre a pergunta do aluno, o PLN, a base controlada e a resposta segura.</p>
+    </section>
+
+    <section class="flow-diagram" aria-label="Fluxograma de funcionamento do chatbot">
+      <article class="flow-node flow-start"><span class="flow-number">01</span><div><strong>Aluno seleciona um perfil fictício</strong><p>Lucas ou Mariana. A sessão fica vinculada a um único perfil de demonstração.</p></div></article>
+      <div class="flow-arrow">↓</div>
+      <article class="flow-node"><span class="flow-number">02</span><div><strong>Aluno escreve a pergunta</strong><p>O sistema aceita linguagem natural em português e limita a entrada a 500 caracteres.</p></div></article>
+      <div class="flow-arrow">↓</div>
+      <article class="flow-node"><span class="flow-number">03</span><div><strong>Pré-processamento</strong><p>Normaliza letras, acentos, pontuação e ruídos para preparar o texto.</p></div></article>
+      <div class="flow-arrow">↓</div>
+      <article class="flow-node"><span class="flow-number">04</span><div><strong>PLN identifica a intenção</strong><p>TF-IDF híbrido de palavras e caracteres representa a pergunta. A Regressão Logística calcula a intenção e a confiança.</p></div></article>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-branches">
+        <article class="flow-branch branch-blue"><span>INSTITUCIONAL</span><strong>Endereço, horários, CAA e fontes</strong><p>Consulta fatos públicos do campus Anália Franco, com fonte, data e link oficial.</p></article>
+        <article class="flow-branch branch-yellow"><span>PERFIL SINTÉTICO</span><strong>Notas, curso e frequência</strong><p>Consulta somente o perfil selecionado. O sistema bloqueia o acesso a outro perfil.</p></article>
+        <article class="flow-branch branch-gray"><span>ENCAMINHAMENTO</span><strong>CAA ou reformulação</strong><p>Para dúvida sem confirmação, documento, financeiro ou baixa confiança, orienta CAA online/presencial.</p></article>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <article class="flow-node flow-result"><span class="flow-number">05</span><div><strong>Resposta controlada</strong><p>O chatbot não inventa fatos: responde com dados cadastrados, mostra evidências quando disponíveis ou encaminha para atendimento humano.</p></div></article>
+    </section>
+
+    <section class="differentials">
+      <div class="section-heading"><span>04</span><div><h2>O que diferencia este protótipo?</h2><p>Elementos que você pode destacar na apresentação.</p></div></div>
+      <div class="differential-grid">
+        <article><strong>Explicável</strong><p>A pergunta passa por etapas visíveis: normalização, intenção, confiança e consulta controlada.</p></article>
+        <article><strong>Seguro por desenho</strong><p>Os perfis são fictícios, a sessão é isolada e o chatbot não solicita dados reais.</p></article>
+        <article><strong>Responsável</strong><p>Sem fonte ou confiança suficiente, o sistema não inventa uma resposta e indica a CAA.</p></article>
+        <article><strong>Atualizável</strong><p>Fontes, intenções e respostas ficam separadas para revisão e manutenção futuras.</p></article>
+      </div>
+    </section>
+
+    <footer>Projeto acadêmico independente. O símbolo exibido identifica a instituição de referência; o Chatbot TGI II não é um sistema oficial nem possui integração interna.</footer>
+  </main>
+</body>
+</html>

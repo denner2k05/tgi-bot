@@ -1,0 +1,1236 @@
+{
+  "versao": "2026-11-13",
+  "descricao": "Perguntas pendentes revisadas para recuperação semântica PLN; não substitui validação institucional.",
+  "entradas": [
+    {
+      "id": "qa_3",
+      "numero": 3,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "O que faço se meu login da Área do Aluno da Cruzeiro do Sul não funcionar?",
+      "resposta": "Confira se está usando seu e-mail acadêmico e tente a opção “Esqueci minha senha” na tela de acesso. Se o problema continuar, procure o CAA Online ou o atendimento presencial; o chatbot não solicita nem recebe senhas.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_4",
+      "numero": 4,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "O que faço se minha conta da Área do Aluno da Unicsul estiver bloqueada?",
+      "resposta": "Use a opção oficial de recuperação de acesso e confirme o e-mail acadêmico cadastrado. Como não há orientação pública para desbloqueio automático, se a conta continuar bloqueada, abra um chamado no CAA Online.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_7",
+      "numero": 7,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "Como altero minha senha no portal da Cruzeiro do Sul?",
+      "resposta": "Na tela de acesso, utilize a opção disponível para recuperação ou alteração de senha e siga as instruções do portal. Se essa opção não aparecer, procure o CAA; o procedimento pode variar conforme o vínculo do aluno.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_9",
+      "numero": 9,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "Como resolvo um erro de acesso ao App Duda?",
+      "resposta": "Confira o e-mail acadêmico, atualize o aplicativo e tente novamente. Se o erro persistir, verifique a Área do Aluno e procure o CAA. Não informe senha, CPF ou RGM ao chatbot.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_12",
+      "numero": 12,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "Como acesso a Área do Aluno da Unicsul pelo celular?",
+      "resposta": "Você pode acessar os serviços pelo App Duda, disponível para Android e iOS, usando o e-mail acadêmico, ou pelo navegador na Área do Aluno. O acesso depende de autenticação e vínculo ativo.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_14",
+      "numero": 14,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "Como vejo os avisos dos professores no App Duda?",
+      "resposta": "Consulte o App Duda e o ambiente acadêmico da sua disciplina. Como não há confirmação pública de um menu universal para avisos dos professores, se a informação não aparecer, procure o professor, a coordenação ou o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_15",
+      "numero": 15,
+      "categoria": "1. Acesso, login e Área do Aluno",
+      "pergunta": "O que faço se uma disciplina não aparecer no meu App Duda?",
+      "resposta": "Confira se a matrícula e a disciplina estão ativas e atualize o App Duda. Se a disciplina continuar ausente, abra um chamado no CAA ou procure a coordenação, pois a causa pode depender do curso, modalidade e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_19",
+      "numero": 19,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Onde encontro a opção “Faça Rematrícula” no portal da Unicsul?",
+      "resposta": "Quando o período estiver aberto, acesse a Área do Aluno e procure a opção de rematrícula. O nome e a disponibilidade do botão podem variar conforme o semestre e a situação acadêmica ou financeira.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_20",
+      "numero": 20,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como consulto a oferta de rematrícula no App Duda?",
+      "resposta": "Consulte a Área do Aluno para verificar a oferta de rematrícula. O App Duda pode concentrar serviços, mas não há confirmação pública de um menu único para todos os alunos.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_22",
+      "numero": 22,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como faço minha rematrícula se a opção não aparecer na Área do Aluno?",
+      "resposta": "Confira se o período de rematrícula está aberto e se existem pendências no seu vínculo. Se a opção não aparecer, abra um chamado no CAA Online para verificar a situação específica.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_23",
+      "numero": 23,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como faço minha rematrícula fora do prazo na Unicsul?",
+      "resposta": "A rematrícula fora do prazo depende do calendário, da oferta e da situação do aluno. Procure imediatamente o CAA Online para confirmar se ainda é possível realizar o procedimento e quais condições se aplicam.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_24",
+      "numero": 24,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como solicito o trancamento da minha matrícula na Universidade Cruzeiro do Sul?",
+      "resposta": "Solicite o trancamento pela Área do Aluno/CAA Online, quando essa opção estiver disponível, e leia as condições antes de confirmar. Os efeitos acadêmicos e financeiros dependem do contrato e da modalidade.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_25",
+      "numero": 25,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como cancelo minha matrícula na Cruzeiro do Sul?",
+      "resposta": "Formalize o cancelamento pela Área do Aluno ou CAA Online e acompanhe o protocolo até a conclusão. Deixar de frequentar ou deixar de pagar não substitui o pedido formal e não permite concluir automaticamente sobre valores ou restituições.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_27",
+      "numero": 27,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como faço transferência de curso dentro da Unicsul?",
+      "resposta": "Solicite a transferência interna pelos canais acadêmicos e aguarde a análise de vagas, curso, modalidade e aproveitamento de disciplinas. Confirme o procedimento no CAA ou com a coordenação.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_28",
+      "numero": 28,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como faço transferência para outro campus da Cruzeiro do Sul?",
+      "resposta": "A mudança para outro campus depende de vagas, curso, modalidade e regras vigentes. Solicite a análise pelo CAA Online; não é possível garantir a transferência sem consultar o vínculo.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_30",
+      "numero": 30,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Posso trocar de turma ou de turno no campus Anália Franco?",
+      "resposta": "A troca de turma ou turno depende da oferta de vagas e das regras do curso. Procure a CAA ou a coordenação do campus Anália Franco para verificar a possibilidade.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_31",
+      "numero": 31,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como incluo uma disciplina na minha matrícula da Unicsul?",
+      "resposta": "Verifique a oferta e os pré-requisitos na Área do Aluno. Se não houver opção de inclusão, abra uma solicitação no CAA Online, pois a aprovação depende do curso, período e vagas.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_32",
+      "numero": 32,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como excluo uma disciplina da minha matrícula?",
+      "resposta": "Antes de excluir uma disciplina, confirme os impactos acadêmicos e financeiros. Solicite orientação pelo CAA Online; não confunda exclusão com trancamento ou cancelamento de matrícula.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_33",
+      "numero": 33,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como funciona uma disciplina em dependência na Cruzeiro do Sul?",
+      "resposta": "A disciplina em dependência segue regras do curso, modalidade, contrato e calendário. Consulte a Área do Aluno e confirme com o CAA ou coordenação como realizar a matrícula e quais condições se aplicam.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_35",
+      "numero": 35,
+      "categoria": "2. Matrícula, rematrícula e vínculo acadêmico",
+      "pergunta": "Como verifico se minha matrícula está regular na Área do Aluno?",
+      "resposta": "Consulte a Área do Aluno para verificar sua situação acadêmica e financeira. Como a matrícula é um dado individual, em caso de dúvida ou pendência abra um chamado no CAA Online.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_38",
+      "numero": 38,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Onde consulto o resultado da minha A1?",
+      "resposta": "Consulte a Área do Aluno ou o App Duda para visualizar notas, faltas e boletim. O chatbot não consegue consultar o resultado individual; se a informação não aparecer ou estiver divergente, procure o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_39",
+      "numero": 39,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Onde consulto o resultado da minha A2?",
+      "resposta": "Consulte a Área do Aluno ou o App Duda para visualizar notas, faltas e boletim. O chatbot não consegue consultar o resultado individual; se a informação não aparecer ou estiver divergente, procure o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_40",
+      "numero": 40,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Onde consulto o resultado da minha AF na Cruzeiro do Sul?",
+      "resposta": "Consulte a Área do Aluno ou o App Duda para visualizar notas, faltas e boletim. O chatbot não consegue consultar o resultado individual; se a informação não aparecer ou estiver divergente, procure o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_43",
+      "numero": 43,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Como solicito revisão da minha nota na Unicsul?",
+      "resposta": "Solicite a revisão pelo canal acadêmico indicado para sua disciplina, conferindo o calendário e o prazo vigente. Como o procedimento pode variar, confirme no CAA ou com a coordenação antes de enviar o pedido.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_44",
+      "numero": 44,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Como solicito revisão das minhas faltas na Universidade Cruzeiro do Sul?",
+      "resposta": "Confira o registro de frequência na Área do Aluno e, se houver divergência, solicite a revisão pelo CAA, informando a disciplina e o período. O prazo e os documentos dependem da regra vigente.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_45",
+      "numero": 45,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Qual é a média mínima para aprovação na minha disciplina da Cruzeiro do Sul?",
+      "resposta": "Não existe uma média mínima universal confirmada para todas as disciplinas. Consulte o plano da disciplina, o regulamento do curso ou a coordenação; não use um número genérico sem essa confirmação.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_46",
+      "numero": 46,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Como funciona a recuperação na Universidade Cruzeiro do Sul?",
+      "resposta": "As regras de recuperação dependem do curso, disciplina, modalidade e período. Consulte o regulamento vigente e o calendário ou procure a coordenação/CAA para confirmar sua situação.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_47",
+      "numero": 47,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Como funciona a prova substitutiva da Unicsul?",
+      "resposta": "A prova substitutiva é um procedimento acadêmico que pode depender de requisitos, prazo e eventual solicitação. Confirme a regra no calendário e no CAA antes de realizar o pedido.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_48",
+      "numero": 48,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Qual é a diferença entre A1, A2 e AF na Cruzeiro do Sul?",
+      "resposta": "A1, A2 e AF são avaliações acadêmicas previstas em períodos distintos do calendário. Pesos, conteúdos e critérios podem variar; consulte o plano da disciplina e o calendário vigente.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_49",
+      "numero": 49,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "O que acontece se eu faltar à prova A1?",
+      "resposta": "A consequência da ausência na A1 depende do regulamento da disciplina e da modalidade. Procure imediatamente o CAA ou a coordenação para verificar se existe segunda chamada ou outro procedimento.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_50",
+      "numero": 50,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Como solicito segunda chamada de prova na Universidade Cruzeiro do Sul?",
+      "resposta": "Solicite a segunda chamada pelo canal acadêmico indicado no calendário ou na Área do Aluno, observando o prazo e os documentos exigidos. Confirme as regras com o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_51",
+      "numero": 51,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Qual é o prazo para solicitar segunda chamada na Unicsul?",
+      "resposta": "Não há um prazo único confirmado para todos os cursos. Consulte o calendário vigente e procure o CAA assim que ocorrer a ausência, pois o pedido pode ter prazo específico.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_53",
+      "numero": 53,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Qual é o limite de faltas permitido na minha disciplina?",
+      "resposta": "O limite de faltas depende da disciplina, curso, modalidade e regulamentação aplicável. Consulte o plano da disciplina ou a coordenação; não utilize um percentual genérico.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_54",
+      "numero": 54,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "O que acontece se eu ultrapassar o limite de faltas na Cruzeiro do Sul?",
+      "resposta": "Ultrapassar o limite de faltas pode afetar a aprovação, mas a consequência exata depende da regra da disciplina. Confirme seu registro na Área do Aluno e procure a coordenação ou o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_56",
+      "numero": 56,
+      "categoria": "3. Notas, provas e frequência",
+      "pergunta": "Como vejo meu desempenho por disciplina na Área do Aluno?",
+      "resposta": "Consulte a Área do Aluno ou o App Duda para visualizar notas, faltas e boletim. O chatbot não consegue consultar o resultado individual; se a informação não aparecer ou estiver divergente, procure o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_62",
+      "numero": 62,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Como cadastro uma nova atividade complementar no App Duda?",
+      "resposta": "Acesse a Área do Aluno ou o App Duda e procure a área de atividades complementares. Como o nome do menu pode variar, se a opção não aparecer procure a coordenação ou o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_63",
+      "numero": 63,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Onde encontro a opção “Cadastre Uma Nova Atividade” na Área do Aluno?",
+      "resposta": "Acesse a Área do Aluno ou o App Duda e procure a área de atividades complementares. Como o nome do menu pode variar, se a opção não aparecer procure a coordenação ou o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_64",
+      "numero": 64,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Como envio o comprovante de uma atividade complementar?",
+      "resposta": "Registre a atividade pela área indicada e envie o comprovante no formato solicitado pelo sistema. Guarde o documento original e confirme o prazo e os critérios do seu curso antes do envio.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_65",
+      "numero": 65,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Quais documentos a Cruzeiro do Sul aceita para comprovar atividade complementar?",
+      "resposta": "Os documentos aceitos dependem do curso e da atividade. Normalmente é necessário um comprovante legível, com identificação da instituição ou evento, data e carga horária, mas confirme os requisitos com a coordenação antes de cadastrar.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_67",
+      "numero": 67,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Posso cadastrar um curso on-line como atividade complementar na Unicsul?",
+      "resposta": "A atividade pode ser aceita somente se estiver prevista nas regras do seu curso. Antes de cadastrar, confirme com a coordenação ou CAA se o curso on-line, voluntariado ou atividade anterior ao ingresso é válido e qual comprovante será exigido.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_69",
+      "numero": 69,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Posso cadastrar uma atividade de voluntariado?",
+      "resposta": "A atividade pode ser aceita somente se estiver prevista nas regras do seu curso. Antes de cadastrar, confirme com a coordenação ou CAA se o curso on-line, voluntariado ou atividade anterior ao ingresso é válido e qual comprovante será exigido.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_70",
+      "numero": 70,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Posso cadastrar uma atividade realizada antes de entrar na faculdade?",
+      "resposta": "A atividade pode ser aceita somente se estiver prevista nas regras do seu curso. Antes de cadastrar, confirme com a coordenação ou CAA se o curso on-line, voluntariado ou atividade anterior ao ingresso é válido e qual comprovante será exigido.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_73",
+      "numero": 73,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Onde vejo quantas horas de atividades complementares ainda faltam?",
+      "resposta": "Consulte a área de atividades complementares na Área do Aluno ou no App Duda. O saldo depende da matriz curricular e do lançamento das atividades; em caso de divergência, procure a coordenação.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_74",
+      "numero": 74,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Quanto tempo a Cruzeiro do Sul demora para analisar minha atividade?",
+      "resposta": "O prazo de análise pode variar conforme o curso, período e volume de solicitações. Acompanhe o status no sistema e procure o CAA se houver atraso, sem considerar um número fixo de dias.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_77",
+      "numero": 77,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Existe prazo para concluir as atividades complementares na Unicsul?",
+      "resposta": "As atividades devem ser concluídas conforme a matriz curricular e o calendário do curso. Como não há um prazo universal confirmado, consulte a coordenação e o regulamento vigente.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_78",
+      "numero": 78,
+      "categoria": "4. Atividades complementares",
+      "pergunta": "Quem analisa e aprova minhas atividades complementares?",
+      "resposta": "A análise segue as regras acadêmicas do curso e o registro é acompanhado pelos canais institucionais. Consulte o status na Área do Aluno e procure a coordenação ou CAA se precisar de esclarecimentos.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_82",
+      "numero": 82,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como faço um acordo financeiro pelo App Duda?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_86",
+      "numero": 86,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Quanto tempo demora para meu pagamento ser compensado na Unicsul?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_87",
+      "numero": 87,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como pago minha mensalidade com cartão?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_88",
+      "numero": 88,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Quais formas de pagamento a Cruzeiro do Sul oferece?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_89",
+      "numero": 89,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como altero minha forma de pagamento no portal?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_90",
+      "numero": 90,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como consulto meus descontos na Área do Aluno?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_96",
+      "numero": 96,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como solicito um desconto na minha mensalidade?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_97",
+      "numero": 97,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "O que faço se o valor do meu boleto estiver errado?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_98",
+      "numero": 98,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como solicito estorno de um pagamento na Unicsul?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_99",
+      "numero": 99,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como consulto minha oferta financeira de rematrícula?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_100",
+      "numero": 100,
+      "categoria": "5. Financeiro, mensalidades e boletos",
+      "pergunta": "Como vejo as condições especiais da rematrícula no App Duda?",
+      "resposta": "Consulte a seção financeira da Área do Aluno ou do App Duda para verificar as opções disponíveis para o seu vínculo. Para acordo, compensação, forma de pagamento, desconto, boleto divergente, estorno ou oferta de rematrícula, abra um atendimento oficial. O chatbot não acessa valores ou dados financeiros individuais.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_101",
+      "numero": 101,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Como solicito minha declaração de matrícula na Área do Aluno?",
+      "resposta": "Acesse a Área do Aluno e procure o CAA Online ou a área de documentos/requerimentos. A disponibilidade e o nome do serviço podem variar; se não encontrar a opção, solicite orientação ao CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_102",
+      "numero": 102,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Como emito meu comprovante de matrícula na Cruzeiro do Sul?",
+      "resposta": "Acesse a Área do Aluno e procure o CAA Online ou a área de documentos/requerimentos. A disponibilidade e o nome do serviço podem variar; se não encontrar a opção, solicite orientação ao CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_104",
+      "numero": 104,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Como solicito uma declaração de conclusão de curso?",
+      "resposta": "Acesse a Área do Aluno e procure o CAA Online ou a área de documentos/requerimentos. A disponibilidade e o nome do serviço podem variar; se não encontrar a opção, solicite orientação ao CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_105",
+      "numero": 105,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Como solicito uma declaração de frequência?",
+      "resposta": "Acesse a Área do Aluno e procure o CAA Online ou a área de documentos/requerimentos. A disponibilidade e o nome do serviço podem variar; se não encontrar a opção, solicite orientação ao CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_108",
+      "numero": 108,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Qual é o prazo para a Cruzeiro do Sul emitir meu documento?",
+      "resposta": "O prazo aparece conforme o tipo de documento e as condições do requerimento. Consulte a solicitação no sistema; não há um prazo único para todos os documentos.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_109",
+      "numero": 109,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "O que faço se meu requerimento estiver atrasado?",
+      "resposta": "Acompanhe o protocolo na Área do Aluno. Se o prazo informado tiver sido ultrapassado, procure o CAA Online e informe o número da solicitação para orientação.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_110",
+      "numero": 110,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Como corrijo um documento acadêmico com erro?",
+      "resposta": "Registre a divergência pelo CAA Online e anexe somente os documentos solicitados pelo canal oficial. A correção, prazo e eventual taxa dependem do tipo de documento.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_111",
+      "numero": 111,
+      "categoria": "6. Documentos e requerimentos",
+      "pergunta": "Como retiro um documento solicitado no campus Anália Franco?",
+      "resposta": "Verifique no requerimento o campus e as instruções de retirada. Para o campus Anália Franco, confirme o local, horário e documentos exigidos com o CAA antes de comparecer.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_120",
+      "numero": 120,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "Como respondo a uma solicitação do CAA Online?",
+      "resposta": "Acesse a Área do Aluno/CAA Online, abra a solicitação e verifique se existe campo para resposta ou anexação. Se a opção não aparecer, procure o atendimento oficial.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_121",
+      "numero": 121,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "Como reabro um chamado encerrado na Cruzeiro do Sul?",
+      "resposta": "Não há confirmação de que todo chamado possa ser reaberto. Consulte o protocolo e, se necessário, registre uma nova solicitação ou procure o CAA para saber o procedimento correto.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_122",
+      "numero": 122,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "Qual é o prazo de resposta do CAA Online?",
+      "resposta": "O prazo depende do assunto e do tipo de solicitação. Acompanhe o protocolo no CAA Online; não existe um prazo geral confirmado para todos os chamados.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_123",
+      "numero": 123,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "Qual assunto devo selecionar para abrir meu chamado?",
+      "resposta": "Escolha o assunto mais próximo do problema apresentado e descreva a situação com clareza. Se nenhuma opção se encaixar, procure a CAA antes de abrir um pedido incorreto.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_125",
+      "numero": 125,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "Como falo diretamente com a secretaria do campus Anália Franco?",
+      "resposta": "Para atendimento da secretaria do campus Anália Franco, utilize a CAA/Área do Aluno ou confirme presencialmente na recepção. O horário geral publicado da CAA é de segunda a sexta, das 8h às 21h, e aos sábados, das 11h às 15h; confirme antes de ir.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_126",
+      "numero": 126,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "Como falo com a coordenação do meu curso na Unicsul?",
+      "resposta": "Solicite o contato da coordenação pela CAA, Área do Aluno ou secretaria do curso. O contato pode variar conforme curso, modalidade e campus; não utilize e-mails não confirmados.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_128",
+      "numero": 128,
+      "categoria": "7. CAA, atendimento e chamados",
+      "pergunta": "O que faço se a CAA não responder meu chamado?",
+      "resposta": "Acompanhe o protocolo. Se a solicitação estiver fora do prazo ou tiver sido concluída de forma inadequada, consulte a Ouvidoria do Estudante conforme as regras do canal, mantendo o número do protocolo.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_140",
+      "numero": 140,
+      "categoria": "8. Estágio",
+      "pergunta": "O que faço se meu contrato de estágio for recusado?",
+      "resposta": "Consulte o motivo do indeferimento no parecer do CAA, corrija a pendência e reenvie o documento conforme a orientação. Se o motivo não estiver claro, procure o CAA ou a coordenação; não há uma solução única para todos os casos.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_144",
+      "numero": 144,
+      "categoria": "8. Estágio",
+      "pergunta": "Como encontro vagas de estágio divulgadas pela Cruzeiro do Sul?",
+      "resposta": "Consulte o Portal de Vagas indicado pela Universidade para verificar oportunidades de estágio e emprego. As vagas, requisitos e disponibilidade podem mudar, portanto confira as informações diretamente no portal.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_146",
+      "numero": 146,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Como funciona o TCC no meu curso da Universidade Cruzeiro do Sul?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_147",
+      "numero": 147,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Quem define meu orientador de TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_148",
+      "numero": 148,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Como escolho o tema do meu TCC na Unicsul?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_149",
+      "numero": 149,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Onde entrego meu TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_150",
+      "numero": 150,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Qual é o prazo para entregar meu TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_151",
+      "numero": 151,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Quais são as regras de formatação do TCC da Cruzeiro do Sul?",
+      "resposta": "A Biblioteca oferece apoio à normalização, mas as regras de formatação do TCC devem ser confirmadas no manual do curso e com o orientador.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_152",
+      "numero": 152,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Como funciona a apresentação do meu TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_153",
+      "numero": 153,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "O que acontece se eu não apresentar meu TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_154",
+      "numero": 154,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Como acompanho a avaliação do meu TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_155",
+      "numero": 155,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Posso fazer meu TCC individualmente?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_156",
+      "numero": 156,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Como faço a correção do meu TCC?",
+      "resposta": "As regras do TCC dependem do curso e da modalidade. Consulte o AVA, a Área do Aluno, o orientador ou a coordenação para confirmar o procedimento, prazo, formato, avaliação e eventuais correções.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_158",
+      "numero": 158,
+      "categoria": "9. TCC, conclusão e diploma",
+      "pergunta": "Como verifico minhas pendências para me formar?",
+      "resposta": "Consulte a Área do Aluno/CAA Online para verificar pendências acadêmicas. A lista depende do curso e pode envolver TCC, estágio, atividades complementares, documentos e outros componentes.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_167",
+      "numero": 167,
+      "categoria": "10. Biblioteca",
+      "pergunta": "O que faço se perder um livro emprestado?",
+      "resposta": "Procure a Biblioteca ou o CAA para confirmar o procedimento específico para atraso, perda ou multa. Não foi confirmada uma regra pública universal para esses casos.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_168",
+      "numero": 168,
+      "categoria": "10. Biblioteca",
+      "pergunta": "Existe multa por atraso na biblioteca da Unicsul?",
+      "resposta": "Procure a Biblioteca ou o CAA para confirmar o procedimento específico para atraso, perda ou multa. Não foi confirmada uma regra pública universal para esses casos.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_171",
+      "numero": 171,
+      "categoria": "10. Biblioteca",
+      "pergunta": "Posso usar a biblioteca de outro campus da Universidade Cruzeiro do Sul?",
+      "resposta": "A Biblioteca informa integração entre unidades e empréstimo entre bibliotecas pelo catálogo. Para utilizar presencialmente outra unidade, confirme as regras com a Biblioteca ou CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_172",
+      "numero": 172,
+      "categoria": "10. Biblioteca",
+      "pergunta": "Posso reservar uma sala de estudo no campus Anália Franco?",
+      "resposta": "A Biblioteca possui salas de estudo, mas a disponibilidade de reserva e o procedimento para o campus Anália Franco precisam ser confirmados diretamente com a unidade.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_173",
+      "numero": 173,
+      "categoria": "10. Biblioteca",
+      "pergunta": "Quais documentos preciso para utilizar a biblioteca?",
+      "resposta": "Confirme com a Biblioteca quais documentos ou identificação são exigidos no atendimento presencial. As instruções do catálogo on-line não substituem a regra de acesso físico.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_178",
+      "numero": 178,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como consulto a ementa da minha disciplina?",
+      "resposta": "Consulte o App Duda, a Área do Aluno ou a coordenação para localizar a ementa da disciplina. O caminho pode variar conforme o curso e a modalidade.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_180",
+      "numero": 180,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "O que é uma disciplina optativa na Cruzeiro do Sul?",
+      "resposta": "Disciplina optativa é uma componente que pode fazer parte da formação conforme a matriz do curso, mas as regras de escolha e equivalência variam. Consulte sua matriz e a coordenação.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_181",
+      "numero": 181,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como faço troca de disciplina?",
+      "resposta": "Solicite a alteração pela Área do Aluno/CAA Online e confirme antes os impactos acadêmicos, financeiros, prazo, oferta e pré-requisitos. A aprovação depende do curso e da situação do aluno.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_182",
+      "numero": 182,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como faço inclusão de disciplina?",
+      "resposta": "Solicite a alteração pela Área do Aluno/CAA Online e confirme antes os impactos acadêmicos, financeiros, prazo, oferta e pré-requisitos. A aprovação depende do curso e da situação do aluno.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_183",
+      "numero": 183,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como faço exclusão de disciplina?",
+      "resposta": "Solicite a alteração pela Área do Aluno/CAA Online e confirme antes os impactos acadêmicos, financeiros, prazo, oferta e pré-requisitos. A aprovação depende do curso e da situação do aluno.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_184",
+      "numero": 184,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Posso mudar de turno no campus Anália Franco?",
+      "resposta": "A mudança depende de vagas, oferta, curso, modalidade e regras vigentes. Solicite análise à CAA ou coordenação; não é possível garantir a alteração sem consulta ao vínculo.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_185",
+      "numero": 185,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Posso mudar de turma na Unicsul?",
+      "resposta": "A mudança depende de vagas, oferta, curso, modalidade e regras vigentes. Solicite análise à CAA ou coordenação; não é possível garantir a alteração sem consulta ao vínculo.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_186",
+      "numero": 186,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Posso mudar de campus dentro da Cruzeiro do Sul?",
+      "resposta": "A mudança depende de vagas, oferta, curso, modalidade e regras vigentes. Solicite análise à CAA ou coordenação; não é possível garantir a alteração sem consulta ao vínculo.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_188",
+      "numero": 188,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Quem é o coordenador do meu curso?",
+      "resposta": "Consulte a página do seu curso ou solicite o contato pela CAA/Área do Aluno. O coordenador e o canal podem variar conforme curso, modalidade e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_189",
+      "numero": 189,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como falo com o coordenador do meu curso?",
+      "resposta": "Consulte a página do seu curso ou solicite o contato pela CAA/Área do Aluno. O coordenador e o canal podem variar conforme curso, modalidade e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_190",
+      "numero": 190,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como consulto o plano de ensino da minha disciplina?",
+      "resposta": "Consulte o App Duda, a Área do Aluno ou a coordenação para localizar o plano de ensino e os professores da turma. Essas informações podem depender da turma e do semestre.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_191",
+      "numero": 191,
+      "categoria": "11. Disciplinas e curso",
+      "pergunta": "Como vejo os professores da minha turma?",
+      "resposta": "Consulte o App Duda, a Área do Aluno ou a coordenação para localizar o plano de ensino e os professores da turma. Essas informações podem depender da turma e do semestre.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_192",
+      "numero": 192,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Qual é o horário da secretaria do campus Anália Franco?",
+      "resposta": "O horário geral publicado da CAA é de segunda a sexta, das 8h às 21h, e aos sábados, das 11h às 15h. Esse horário pode não ser o mesmo da secretaria; confirme antes de comparecer.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_194",
+      "numero": 194,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Onde ficam os laboratórios do campus Anália Franco?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_195",
+      "numero": 195,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Como uso os laboratórios de informática da Unicsul?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_196",
+      "numero": 196,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "O campus Anália Franco possui Wi-Fi?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_197",
+      "numero": 197,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Como acesso o Wi-Fi do campus Anália Franco?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_198",
+      "numero": 198,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "O campus Anália Franco possui estacionamento?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_199",
+      "numero": 199,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Como funciona o estacionamento do campus?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_200",
+      "numero": 200,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "O campus Anália Franco possui acessibilidade?",
+      "resposta": "A Universidade declara compromisso com acessibilidade, mas os recursos concretos podem variar. Para confirmar rota, adaptações ou atendimento no campus Anália Franco, procure a instituição antes da visita.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_201",
+      "numero": 201,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Onde fica o setor de achados e perdidos do campus?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_202",
+      "numero": 202,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Onde ficam as clínicas da Cruzeiro do Sul?",
+      "resposta": "A Universidade possui clínicas e serviços à comunidade, mas a localização depende da clínica e da unidade. Confirme o endereço específico na página oficial ou com o CAA.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_203",
+      "numero": 203,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Onde ficam os núcleos de atendimento da Unicsul?",
+      "resposta": "Alguns núcleos possuem endereço publicado, mas não existe um mapa único para todos. Informe qual núcleo deseja localizar e confirme o endereço na página oficial antes de ir.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_205",
+      "numero": 205,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Posso reservar uma sala no campus?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_206",
+      "numero": 206,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Onde fica a secretaria acadêmica do campus Anália Franco?",
+      "resposta": "O endereço do campus é Av. Regente Feijó, 1295. Para localizar a secretaria acadêmica internamente, procure a recepção ou CAA, pois não há confirmação pública de bloco ou sala.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_207",
+      "numero": 207,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Onde fica a coordenação do meu curso no campus?",
+      "resposta": "Não há informação pública suficiente para confirmar esse serviço ou sua localização interna no campus. Procure a recepção, a CAA ou o setor responsável antes de utilizar o espaço.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_210",
+      "numero": 210,
+      "categoria": "12. Infraestrutura do campus Anália Franco",
+      "pergunta": "Como chego ao campus Anália Franco?",
+      "resposta": "O campus Anália Franco fica na Av. Regente Feijó, 1295, Vila Regente Feijó, São Paulo, SP, CEP 03342-000. Para a rota, consulte um aplicativo de mapas atualizado a partir do seu ponto de partida.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_212",
+      "numero": 212,
+      "categoria": "13. Calendário acadêmico",
+      "pergunta": "Quando terminam as aulas do meu semestre?",
+      "resposta": "Consulte o calendário acadêmico vigente na Área do Aluno, no App Duda e nos comunicados oficiais. As datas de aulas, provas, recesso e férias podem variar conforme curso, modalidade, campus, turma e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_214",
+      "numero": 214,
+      "categoria": "13. Calendário acadêmico",
+      "pergunta": "Quando termina o semestre letivo?",
+      "resposta": "Consulte o calendário acadêmico vigente na Área do Aluno, no App Duda e nos comunicados oficiais. As datas de aulas, provas, recesso e férias podem variar conforme curso, modalidade, campus, turma e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_215",
+      "numero": 215,
+      "categoria": "13. Calendário acadêmico",
+      "pergunta": "Quando ocorre o recesso acadêmico da Universidade Cruzeiro do Sul?",
+      "resposta": "Consulte o calendário acadêmico vigente na Área do Aluno, no App Duda e nos comunicados oficiais. As datas de aulas, provas, recesso e férias podem variar conforme curso, modalidade, campus, turma e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_216",
+      "numero": 216,
+      "categoria": "13. Calendário acadêmico",
+      "pergunta": "Quando são as férias dos alunos da Unicsul?",
+      "resposta": "Consulte o calendário acadêmico vigente na Área do Aluno, no App Duda e nos comunicados oficiais. As datas de aulas, provas, recesso e férias podem variar conforme curso, modalidade, campus, turma e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    },
+    {
+      "id": "qa_218",
+      "numero": 218,
+      "categoria": "13. Calendário acadêmico",
+      "pergunta": "Quando serão divulgadas as datas das provas?",
+      "resposta": "Consulte o calendário acadêmico vigente na Área do Aluno, no App Duda e nos comunicados oficiais. As datas de aulas, provas, recesso e férias podem variar conforme curso, modalidade, campus, turma e período.",
+      "status": "orientacao_revisada",
+      "fonte": "Base de respostas revisadas a partir de pesquisa pública; confirme no canal oficial quando indicado.",
+      "url": "https://www.cruzeirodosul.edu.br/a-cruzeiro-do-sul/canais-de-atendimento/"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel de registros — Chatbot TGI II</title>
+  <style>
+    :root { --blue:#082b66; --blue2:#0e4fae; --yellow:#f5c400; --ink:#18243a; --muted:#6a7890; --surface:#fff; --bg:#f3f6fb; --line:#dfe6f0; }
+    * { box-sizing:border-box; } body { margin:0; font-family:Inter, ui-sans-serif, system-ui, sans-serif; color:var(--ink); background:var(--bg); }
+    header { background:linear-gradient(120deg,var(--blue),var(--blue2)); color:white; padding:24px clamp(20px,5vw,72px); display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    header h1 { margin:0 0 5px; font-size:clamp(1.3rem,2.4vw,2rem); } header p { margin:0; opacity:.82; }
+    .brand { display:flex; gap:14px; align-items:center; } .mark { width:44px;height:44px;border-radius:14px;background:var(--yellow);color:var(--blue);display:grid;place-items:center;font-weight:900; }
+    main { max-width:1280px; margin:0 auto; padding:28px 20px 60px; } .card { background:var(--surface); border:1px solid var(--line); border-radius:20px; box-shadow:0 12px 35px #1d37650d; padding:24px; }
+    .login { max-width:470px; margin:8vh auto; } label { display:block; font-weight:700; margin-bottom:8px; } input { width:100%; border:1px solid var(--line); border-radius:12px; padding:13px 14px; font-size:1rem; margin-bottom:14px; }
+    button, a.btn { border:0; border-radius:12px; padding:11px 16px; background:var(--blue); color:#fff; cursor:pointer; font-weight:700; text-decoration:none; display:inline-block; } button.secondary, a.secondary { background:#eef3fb;color:var(--blue); }
+    .notice { color:var(--muted); line-height:1.55; } .error { color:#a42626; min-height:24px; } .toolbar { display:flex; gap:10px; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:18px; }
+    .stats { display:flex; gap:12px; flex-wrap:wrap; margin:20px 0; } .stat { background:#f7f9fd; border:1px solid var(--line); border-radius:14px; padding:14px 18px; min-width:150px; } .stat strong { display:block; font-size:1.4rem; color:var(--blue); }
+    .log { border:1px solid var(--line); border-radius:16px; padding:18px; margin:12px 0; background:#fff; } .log-top { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; color:var(--muted); font-size:.86rem; }
+    .question { font-weight:800; margin:14px 0 8px; } .answer { white-space:pre-wrap; line-height:1.55; margin:0 0 12px; } .chips { display:flex; flex-wrap:wrap; gap:7px; } .chip { background:#edf4ff; color:var(--blue); border-radius:999px; padding:5px 9px; font-size:.78rem; font-weight:700; }
+    .privacy { margin-top:18px; color:var(--muted); font-size:.86rem; line-height:1.5; } @media(max-width:700px){ header{align-items:flex-start;flex-direction:column;} .card{padding:18px;} }
+  </style>
+</head>
+<body>
+<header><div class="brand"><div class="mark">TGI</div><div><h1>Painel de registros</h1><p>Perguntas recebidas e respostas enviadas pelo Chatbot TGI II</p></div></div><a class="btn secondary" href="/">Voltar ao chat</a></header>
+<main>
+{% if not authenticated %}
+  <section class="card login">
+    <h2>Acesso administrativo</h2>
+    <p class="notice">Digite o código configurado para visualizar os registros. O painel é destinado à avaliação acadêmica do protótipo.</p>
+    {% if not has_token %}<p class="error">O painel ainda não possui código configurado no ambiente.</p>{% endif %}
+    <form id="login-form"><label for="token">Código de acesso</label><input id="token" type="password" autocomplete="current-password" required><button type="submit">Entrar no painel</button><p id="login-error" class="error"></p></form>
+  </section>
+{% else %}
+  <section class="card">
+    <div class="toolbar"><div><h2 style="margin:0">Histórico de interações</h2><p class="notice" style="margin:5px 0 0">Use os registros para identificar perguntas que o bot ainda precisa melhorar.</p></div><div><button class="secondary" id="refresh">Atualizar</button> <button id="logout">Sair</button></div></div>
+    <div class="stats"><div class="stat"><strong id="total">0</strong><span>registros armazenados</span></div><div class="stat"><strong id="shown">0</strong><span>exibidos nesta tela</span></div></div>
+    <input id="filter" placeholder="Filtrar por pergunta, intenção ou resposta..." aria-label="Filtrar registros">
+    <div id="logs"><p class="notice">Carregando registros...</p></div>
+    <p class="privacy">Privacidade: o painel registra a pergunta, a resposta, a intenção, a confiança e o perfil sintético selecionado. Senhas, CPF, RGM, anexos e dados financeiros não são armazenados pelo registro.</p>
+  </section>
+{% endif %}
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+async function login(e){ e.preventDefault(); const r=await fetch('/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({token:$('token').value})}); if(r.ok) location.reload(); else $('login-error').textContent=(await r.json()).erro||'Não foi possível entrar.'; }
+function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+let all=[];
+function render(){ const term=($('filter')?.value||'').toLowerCase(); const list=all.filter(x=>JSON.stringify(x).toLowerCase().includes(term)); $('shown').textContent=list.length; $('logs').innerHTML=list.length?list.map(x=>`<article class="log"><div class="log-top"><span>${escapeHtml(x.horario||'')}</span><span>${escapeHtml(x.perfil_sintetico||'perfil não informado')}</span></div><div class="question">Pergunta: ${escapeHtml(x.pergunta)}</div><p class="answer"><strong>Resposta:</strong> ${escapeHtml(x.resposta)}</p><div class="chips"><span class="chip">Intenção: ${escapeHtml(x.intencao)}</span><span class="chip">Confiança: ${escapeHtml(x.confianca)}</span>${x.qa_id?`<span class="chip">Base: ${escapeHtml(x.qa_id)}</span>`:''}<span class="chip">Tipo: ${escapeHtml(x.tipo)}</span></div></article>`).join(''):'<p class="notice">Nenhum registro encontrado.</p>'; }
+async function load(){ const r=await fetch('/admin/api/logs'); if(r.status===401){location.reload();return;} const d=await r.json(); all=d.registros||[]; $('total').textContent=d.total||0; render(); }
+if($('login-form')) $('login-form').addEventListener('submit',login); if($('refresh')) $('refresh').addEventListener('click',load); if($('filter')) $('filter').addEventListener('input',render); if($('logout')) $('logout').addEventListener('click',async()=>{await fetch('/admin/logout',{method:'POST'});location.reload();}); if($('logs')) load();
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar do assistente virtual</title>
+  <desc id="desc">Robô azul com detalhes amarelos e olhos ciano</desc>
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123f78"/>
+      <stop offset="1" stop-color="#071b3d"/>
+    </linearGradient>
+    <linearGradient id="visor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33d9e8"/>
+      <stop offset="1" stop-color="#1389b8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="61" fill="#eef4ff" stroke="#f2c318" stroke-width="4"/>
+  <path d="M64 19v12" stroke="#f2c318" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="64" cy="15" r="6" fill="#f2c318"/>
+  <rect x="22" y="32" width="84" height="66" rx="24" fill="url(#body)"/>
+  <rect x="31" y="44" width="66" height="34" rx="15" fill="url(#visor)"/>
+  <circle cx="49" cy="61" r="6" fill="#fff"/>
+  <circle cx="79" cy="61" r="6" fill="#fff"/>
+  <circle cx="50" cy="62" r="2.5" fill="#071b3d"/>
+  <circle cx="80" cy="62" r="2.5" fill="#071b3d"/>
+  <path d="M52 88c7 6 17 6 24 0" fill="none" stroke="#f2c318" stroke-width="5" stroke-linecap="round"/>
+  <path d="M22 63H12M106 63h10" stroke="#f2c318" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="10" cy="63" r="4" fill="#f2c318"/><circle cx="118" cy="63" r="4" fill="#f2c318"/>
+</svg>
