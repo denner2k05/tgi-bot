@@ -119,6 +119,12 @@ INTENTS = {
         'qual o horário das disciplinas', 'que aulas tenho durante a semana', 'quais matérias tenho à noite', 'consultar minha grade de horários', 'horários da minha turma',
         'qual é o horário da minha turma', 'mostrar minha grade semanal', 'em quais dias tenho aulas', 'qual a agenda de aulas do perfil', 'quais disciplinas tenho na grade noturna',
     ],
+    'consulta_sala_perfil': [
+        'qual é a minha sala hoje', 'qual sala tenho hoje', 'em qual sala vou estudar hoje', 'onde será minha aula hoje', 'qual é a sala da minha aula',
+        'em que sala é minha aula de hoje', 'onde fica minha aula hoje', 'qual sala está no meu horário de hoje', 'qual laboratório tenho hoje', 'qual o local da aula de hoje',
+        'você sabe qual é minha sala hoje', 'me informe a sala da aula de hoje', 'qual ambiente vou usar hoje', 'onde será a aula da minha turma', 'qual sala aparece para o meu perfil',
+        'quero consultar minha sala de hoje', 'qual é o laboratório da minha aula', 'em qual ambiente acontece minha aula hoje', 'onde tenho aula hoje no campus', 'qual a sala do aluno hoje',
+    ],
     'frequencia': [
         'qual minha frequência', 'quantos por cento de presença', 'minhas faltas', 'onde vejo minha frequência', 'qual meu percentual de presença',
         'quantas faltas eu tenho', 'consultar frequência do aluno', 'qual minha presença nas aulas', 'ver minhas faltas', 'como está minha frequência',
