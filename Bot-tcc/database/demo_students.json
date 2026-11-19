@@ -4,7 +4,7 @@
   "finalidade": "Demonstração acadêmica e testes técnicos do Chatbot TGI II",
   "observacao": "Nenhum perfil representa aluno real. Não há integração com sistemas da universidade.",
   "perfis": [
-    {"identificador_do_perfil":"TESTE001","nome":"Lucas Almeida","genero":"masculino","email":"lucas.almeida@example.com","curso":"Ciência da Computação","campus":"Anália Franco","nota_a1":3.0,"nota_a2":7.0,"media":5.0,"frequencia":"85%","status":"perfil de demonstração","horario_aulas_sintetico":[{"dia":"segunda-feira","horario":"19h às 20h40","disciplina":"Algoritmos e Estruturas de Dados"},{"dia":"quarta-feira","horario":"19h às 20h40","disciplina":"Banco de Dados"},{"dia":"sexta-feira","horario":"19h às 20h40","disciplina":"Engenharia de Software"}]},
-    {"identificador_do_perfil":"TESTE002","nome":"Mariana Souza","genero":"feminino","email":"mariana.souza@example.com","curso":"Administração","campus":"Anália Franco","nota_a1":2.0,"nota_a2":8.0,"media":5.0,"frequencia":"90%","status":"perfil de demonstração"}
+    {"identificador_do_perfil":"TESTE001","nome":"Lucas Almeida","genero":"masculino","email":"lucas.almeida@example.com","curso":"Ciência da Computação","campus":"Anália Franco","nota_a1":3.0,"nota_a2":7.0,"media":5.0,"frequencia":"85%","status":"perfil de demonstração","sala_hoje_sintetica":"Laboratório de Informática V","horario_aulas_sintetico":[{"dia":"segunda-feira","horario":"19h às 20h40","disciplina":"Algoritmos e Estruturas de Dados"},{"dia":"quarta-feira","horario":"19h às 20h40","disciplina":"Banco de Dados"},{"dia":"sexta-feira","horario":"19h às 20h40","disciplina":"Engenharia de Software"}]},
+    {"identificador_do_perfil":"TESTE002","nome":"Mariana Souza","genero":"feminino","email":"mariana.souza@example.com","curso":"Administração","campus":"Anália Franco","nota_a1":2.0,"nota_a2":8.0,"media":5.0,"frequencia":"90%","status":"perfil de demonstração","sala_hoje_sintetica":"Sala 204"}
   ]
 }
