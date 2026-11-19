@@ -68,6 +68,21 @@ def test_synthetic_computer_science_schedule(client):
     assert "sexta-feira" in data["resposta"]
     assert "sintéticos" in data["resposta"]
 
+def test_synthetic_room_for_today_requires_selected_profile(client):
+    response = client.post("/chat", json={"mensagem": "qual é a minha sala hoje"})
+    assert response.status_code == 400
+    assert "Escolha um perfil" in response.get_json()["erro"]
+
+def test_synthetic_room_for_today_uses_selected_profile(client):
+    select(client, "TESTE001")
+    response = client.post("/chat", json={"mensagem": "qual sala tenho hoje"})
+    data = response.get_json()
+    assert response.status_code == 200
+    assert data["intencao"] == "consulta_sala_perfil"
+    assert data["tipo"] == "perfil_sintetico"
+    assert "Laboratório de Informática V" in data["resposta"]
+    assert "sintética" in data["resposta"]
+
 @pytest.mark.parametrize("question, expected", [
     ("qual a data das provas da A1", "26/11"),
     ("onde tiro uma dúvida acadêmica", "CAA"),
