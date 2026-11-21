@@ -7,8 +7,12 @@ const input = $("#message");
 const attachmentInput = $("#attachment");
 const attachmentName = $("#attachment-name");
 const profileIdInput = $("#profile-id");
+const voiceButton = $("#voice-input");
+const voiceStatus = $("#voice-status");
 let activeProfile = null;
 const explainabilityLog = [];
+let speechRecognition = null;
+let isListening = false;
 
 function readSavedProfile() {
   try {
@@ -38,6 +42,59 @@ function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
   }[char]));
+}
+
+function speakText(text, button) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "pt-BR";
+  utterance.rate = 1;
+  utterance.onend = () => { if (button) button.textContent = "🔊 Ouvir resposta"; };
+  window.speechSynthesis.speak(utterance);
+  if (button) button.textContent = "⏹ Parar leitura";
+}
+
+function setupVoiceInput() {
+  if (!voiceButton) return;
+  const Recognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!Recognition) {
+    voiceButton.disabled = true;
+    voiceButton.title = "Seu navegador não oferece reconhecimento de voz";
+    if (voiceStatus) voiceStatus.textContent = "Ditado por voz indisponível neste navegador. Você pode digitar a pergunta.";
+    return;
+  }
+  speechRecognition = new Recognition();
+  speechRecognition.lang = "pt-BR";
+  speechRecognition.continuous = false;
+  speechRecognition.interimResults = true;
+  speechRecognition.maxAlternatives = 1;
+  speechRecognition.onstart = () => {
+    isListening = true;
+    voiceButton.classList.add("recording");
+    voiceButton.setAttribute("aria-pressed", "true");
+    voiceButton.querySelector(".voice-button-text").textContent = "Ouvindo…";
+    if (voiceStatus) voiceStatus.textContent = "Ouvindo. Fale sua pergunta e aguarde a transcrição.";
+  };
+  speechRecognition.onresult = (event) => {
+    const transcript = Array.from(event.results).map((result) => result[0].transcript).join(" ").trim();
+    input.value = transcript.slice(0, 500);
+    if (voiceStatus) voiceStatus.textContent = transcript ? `Pergunta transcrita: ${transcript}` : "Não consegui identificar a fala. Tente novamente.";
+  };
+  speechRecognition.onerror = (event) => {
+    const message = event.error === "not-allowed" ? "Permissão do microfone negada. Permita o microfone no navegador ou digite a pergunta." : "Não consegui entender o áudio. Tente falar novamente ou digite a pergunta.";
+    if (voiceStatus) voiceStatus.textContent = message;
+  };
+  speechRecognition.onend = () => {
+    isListening = false;
+    voiceButton.classList.remove("recording");
+    voiceButton.setAttribute("aria-pressed", "false");
+    voiceButton.querySelector(".voice-button-text").textContent = "Falar";
+  };
+  voiceButton.addEventListener("click", () => {
+    if (isListening) speechRecognition.stop();
+    else speechRecognition.start();
+  });
 }
 
 async function sendFeedback(button, feedback, messageId) {
@@ -181,6 +238,20 @@ function addMessage(text, who = "bot", meta = null) {
     evidence.innerHTML = `Fonte: ${escapeHtml(meta.fonte)} · consultado em ${escapeHtml(meta.data_consulta || "data não informada")}<br><a href="${meta.url}" target="_blank" rel="noopener">Abrir fonte oficial ↗</a>`;
     article.appendChild(evidence);
   }
+  if (who === "bot" && text) {
+    const listenButton = document.createElement("button");
+    listenButton.type = "button";
+    listenButton.className = "listen-button";
+    listenButton.textContent = "🔊 Ouvir resposta";
+    listenButton.setAttribute("aria-label", "Ouvir resposta em voz alta");
+    listenButton.addEventListener("click", () => {
+      if (window.speechSynthesis?.speaking) {
+        window.speechSynthesis.cancel();
+        listenButton.textContent = "🔊 Ouvir resposta";
+      } else speakText(text, listenButton);
+    });
+    article.appendChild(listenButton);
+  }
   if (who === "bot" && meta) {
     addFeedback(article, meta.message_id);
     addResolutionActions(article, meta);
@@ -196,6 +267,7 @@ function renderProfile(profile) {
 }
 
 bindFeedback(document.querySelector(".message.bot .feedback-actions"), "initial-greeting");
+setupVoiceInput();
 
 $("#open-explainability")?.addEventListener("click", openExplainability);
 $("#close-explainability")?.addEventListener("click", closeExplainability);
